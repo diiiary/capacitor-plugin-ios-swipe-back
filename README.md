@@ -9,4 +9,22 @@ npm install capacitor-plugin-ios-swipe-back
 npx cap sync
 ```
 
-## Done
+## Methods
+
+### enable()
+
+Enable the back/forward swipe guestures support for iOS
+
+```
+Capacitor.Plugins.IosSwipeBack.enable()
+```
+
+### disable()
+
+Disable the back/forward swipe guestures support for iOS
+
+```
+Capacitor.Plugins.IosSwipeBack.disable()
+```
+
+## Thank You!
