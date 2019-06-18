@@ -16,13 +16,11 @@ export class IosSwipeBackWeb extends WebPlugin {
     }
     enable(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log('enable');
             return options;
         });
     }
     disable(options) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log('disable');
             return options;
         });
     }
