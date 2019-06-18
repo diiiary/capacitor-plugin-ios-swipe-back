@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-ios-swipe-back",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "All swipe back guestures",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -29,14 +29,12 @@
   "keywords": [
     "capacitor",
     "plugin",
-    "native"
+    "native",
+    "ios"
   ],
   "capacitor": {
     "ios": {
       "src": "ios"
-    },
-    "android": {
-      "src": "android"
     }
   },
   "repository": {

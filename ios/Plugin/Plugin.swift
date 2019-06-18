@@ -1,6 +1,5 @@
 import Foundation
 import Capacitor
-import WKWebView
 
 /**
  * Please read the Capacitor iOS Plugin Development Guide
@@ -10,7 +9,6 @@ import WKWebView
 public class IosSwipeBack: CAPPlugin {
     
     public override func load() {
-        var webView = self.bridge.getWebView;
-        webView?.allowsBackForwardNavigationGestures = true
+        self.bridge.getWebView()?.allowsBackForwardNavigationGestures = true
     }
 }
