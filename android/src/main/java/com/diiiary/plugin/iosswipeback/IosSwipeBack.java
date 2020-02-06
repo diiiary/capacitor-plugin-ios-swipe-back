@@ -1,4 +1,4 @@
-package com.diiiary.plugin.ios-swipe-back;
+package com.diiiary.plugin.iosswipeback;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.NativePlugin;
